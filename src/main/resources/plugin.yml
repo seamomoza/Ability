@@ -1,0 +1,25 @@
+name: Ability
+version: '1'
+main: io.github.seamo.ability.Ability
+api-version: '1.21'
+commands:
+  psy:
+    description: Gives the player a full set of diamond armor
+    usage: /psy
+    permission: op
+  psychics:
+    description: Gives the player a full set of diamond armor
+    usage: /psychics
+    permission: op
+  fireman:
+    description: Gives the player a fire charge
+    tab-completer: io.github.seamo.java.JavaTabCompleter
+  teleporter:
+    description: Gives the player an ender pearl
+    tab-completer: io.github.seamo.java.JavaTabCompleter
+  fang:
+    description: Gives the player a stick
+    tab-completer: io.github.seamo.java.JavaTabCompleter
+  exploder:
+    description: Gives the player a blaze rod
+    tab-completer: io.github.seamo.java.
